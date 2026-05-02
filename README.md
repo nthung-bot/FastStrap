@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![License](https://img.shields.io/github/license/FastWind/FastStrap)](https://github.com/nthung-bot/FastStrap?tab=MIT-1-ov-file)
+[![License](https://github.com/twbs/bootstrap/blob/main/LICENSE)](https://github.com/nthung-bot/FastStrap?tab=MIT-1-ov-file)
 [![Releases](https://img.shields.io/github/v/release/FastWind/FastStrap?label=latest)](https://github.com/FastWind/FastStrap/releases/latest)
 
 </div>
