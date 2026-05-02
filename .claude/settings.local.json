@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell([System.IO.Directory]::GetFileSystemEntries\\('c:\\\\Users\\\\hello\\\\Music\\\\bloxstrap-main'\\) | ForEach-Object { Write-Host $_ })",
+      "PowerShell(dotnet publish \"c:\\\\Users\\\\hello\\\\Music\\\\bloxstrap-main\\\\FastStrap\\\\FastStrap.csproj\" -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -o \"$env:USERPROFILE\\\\Downloads\\\\FastStrap\" 2>&1 | Select-Object -Last 30)",
+      "PowerShell(Get-ChildItem \"$env:USERPROFILE\\\\Downloads\\\\FastStrap\" | Select-Object Name, @{N='SizeMB';E={[math]::Round\\($_.Length/1MB,1\\)}})",
+      "PowerShell(Get-ChildItem \"$env:USERPROFILE\\\\Downloads\\\\FastStrap\")",
+      "PowerShell(Invoke-WebRequest -Uri \"https://github.com/git-for-windows/git/releases/download/v2.45.2.windows.1/Git-2.45.2-64-bit.exe\" -OutFile \"$env:TEMP\\\\GitInstaller.exe\" -UseBasicParsing; Write-Host \"Downloaded\")",
+      "PowerShell(while \\(!\\(Test-Path \"$env:TEMP\\\\GitInstaller.exe\"\\)\\) { Start-Sleep -Seconds 3 }; \\(Get-Item \"$env:TEMP\\\\GitInstaller.exe\"\\).Length)",
+      "PowerShell(Start-Process -FilePath \"$env:TEMP\\\\GitInstaller.exe\" -ArgumentList \"/VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS /COMPONENTS=icons,ext\\\\reg\\\\shellhere,assoc,assoc_sh\" -Wait; Write-Host \"Git installed\")",
+      "PowerShell(Start-Sleep -Seconds 5; Start-Process -FilePath \"$env:TEMP\\\\GitInstaller.exe\" -ArgumentList \"/VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS /COMPONENTS=icons,ext\\\\reg\\\\shellhere,assoc,assoc_sh\" -Wait; Write-Host \"Done\")",
+      "PowerShell(Copy-Item \"$env:TEMP\\\\GitInstaller.exe\" \"$env:TEMP\\\\GitInstaller2.exe\" -Force; Start-Process -FilePath \"$env:TEMP\\\\GitInstaller2.exe\" -ArgumentList \"/VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /COMPONENTS=icons,ext\\\\reg\\\\shellhere,assoc,assoc_sh\" -Wait; Write-Host \"Done\")"
+    ]
+  }
+}
