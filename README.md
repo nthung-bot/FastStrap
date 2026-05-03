@@ -44,7 +44,6 @@ FastStrap is only supported on **Windows**.
 
 > **Windows SmartScreen:** If a popup appears on first run, click **More info → Run anyway**. This happens because the app is new, not because it's malicious.
 
----
 
 
 ---
