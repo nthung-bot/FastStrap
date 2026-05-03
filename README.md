@@ -46,15 +46,6 @@ FastStrap is only supported on **Windows**.
 
 ---
 
-## Building from source
-
-Requirements: [Visual Studio 2022](https://visualstudio.microsoft.com/) with the **.NET desktop development** workload, and .NET 6 SDK.
-
-```
-git clone https://github.com/FastWind/FastStrap
-cd FastStrap
-dotnet build FastStrap/FastStrap.csproj
-```
 
 ---
 
