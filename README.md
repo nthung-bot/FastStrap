@@ -1,4 +1,6 @@
-<h1 align="center">FastStrap</h1>
+<p align="center">
+  <img src="https://i.ibb.co/mFFY6Gn2/N-i-dung-o-n-v-n-b-n-c-a-b-n-removebg-preview-1.png" alt="FastStrap">
+</p>
 
 <p align="center">
   A third-party Roblox bootstrapper with performance features, forked from <a href="https://github.com/bloxstraplabs/bloxstrap">Bloxstrap</a>.
