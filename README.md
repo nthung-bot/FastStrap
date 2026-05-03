@@ -58,7 +58,7 @@ dotnet build FastStrap/FastStrap.csproj
 
 ## Credits
 
-- **FastStrap** is maintained by [FastWind](https://github.com/FastWind)
+- **FastStrap** is maintained by [FastWind](https://github.com/nthung-bot)
 - **Bloxstrap** (original project) was created by [pizzaboxer](https://github.com/pizzaboxer) and the [bloxstraplabs](https://github.com/bloxstraplabs) team
 - UI library: [bloxstraplabs/wpfui](https://github.com/bloxstraplabs/wpfui) (fork of [lepoco/wpfui](https://github.com/lepoco/wpfui))
 
