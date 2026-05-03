@@ -28,7 +28,8 @@ FastStrap is only supported on **Windows**.
 - **Discord Rich Presence** — Let your friends see what you're playing at a glance
 - **Mod support** — Customize content files (death sound, cursor, etc.)
 - **Fast Flags manager** — Configure Roblox graphics and UI settings
-- **Server location** — See where your game server is located
+- **Server location** — See where your game server is 
+- **Server Region** — Choose server the game for ping slow
 
 ---
 
