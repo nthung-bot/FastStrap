@@ -8,7 +8,9 @@
 
 <div align="center">
 
-
+<p align="center">
+  <img src="https://i.ibb.co/v4tL5WT1/Thi-t-k-ch-a-c-t-n-2.png" alt="FastStrap">
+</p>
 
 </div>
 
